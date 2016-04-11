@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publish\Sc8MVC\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/SiteDefinition.config">
+      <publishTime>03/29/2016 18:02:02</publishTime>
+    </File>
+    <File Include="Areas/DefaultSite/Controllers/NewController.cs">
+      <publishTime>04/05/2016 09:17:09</publishTime>
+    </File>
+    <File Include="Areas/DefaultSite/DefaultSiteAreaRegistration.cs">
+      <publishTime>04/04/2016 17:38:42</publishTime>
+    </File>
+    <File Include="Areas/DefaultSite/Views/New/Index.cshtml">
+      <publishTime>04/05/2016 10:30:40</publishTime>
+    </File>
+    <File Include="Areas/DefaultSite/Views/Shared/DefaultLayout.cshtml">
+      <publishTime>04/05/2016 10:15:24</publishTime>
+    </File>
+    <File Include="Areas/DefaultSite/Views/Shared/_Layout.cshtml">
+      <publishTime>04/04/2016 17:53:16</publishTime>
+    </File>
+    <File Include="Areas/DefaultSite/Views/web.config">
+      <publishTime>04/05/2016 10:14:44</publishTime>
+    </File>
+    <File Include="Areas/DefaultSite/Views/_ViewStart.cshtml">
+      <publishTime>04/04/2016 17:53:15</publishTime>
+    </File>
+    <File Include="bin/Sc8MVC.dll">
+      <publishTime>04/05/2016 10:16:09</publishTime>
+    </File>
+    <File Include="DuplicateItems.aspx">
+      <publishTime>04/04/2016 16:41:32</publishTime>
+    </File>
+    <File Include="layouts/QueryableRulesRunner.ascx">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="layouts/Sample Datasource Sublayout.ascx">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="layouts/Sample Inner Sublayout.ascx">
+      <publishTime>03/29/2016 15:09:07</publishTime>
+    </File>
+    <File Include="layouts/Sample layout.aspx">
+      <publishTime>03/29/2016 18:11:36</publishTime>
+    </File>
+    <File Include="layouts/Sample Sublayout.ascx">
+      <publishTime>04/04/2016 14:23:52</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Connector/Login with Facebook.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Connector/Login with Google.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Connector/Login with LinkedIn.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Connector/Login with Twitter.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Connector/SocialLogin.ashx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Connector/Style.css">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Sharing/GooglePlusOneButton.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Sharing/LikeButton.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Sharing/LinkedInShareButton.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Sharing/SocialEvents.aspx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/Social/Sharing/TweetButton.ascx">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="layouts/system/VIChecker.aspx">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="layouts/system/VisitorIdentification.ascx">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="layouts/system/VisitorIdentification.aspx">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="layouts/system/VisitorIdentification.js">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="layouts/system/VisitorIdentificationCss.aspx">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="layouts/xmlcontrol.aspx">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="Views/Shared/ExperienceExplorerView.cshtml">
+      <publishTime>03/29/2016 15:02:35</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
