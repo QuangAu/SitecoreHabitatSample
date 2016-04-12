@@ -9,8 +9,590 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>D:\Publish\Sc8MVC\Website</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Config/Commands.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/ConnectionStrings.config">
+      <publishTime>10/03/2015 06:02:42</publishTime>
+    </File>
+    <File Include="App_Config/ConnectionStringsOracle.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/FieldTypes.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/Icons.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/001.Sitecore.Speak.Important.config">
+      <publishTime>10/03/2015 06:02:34</publishTime>
+    </File>
+    <File Include="App_Config/Include/CES/Sitecore.CES.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/CES/Sitecore.CES.DeviceDetection.CheckInitialization.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/CES/Sitecore.CES.DeviceDetection.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/CES/Sitecore.CES.GeoIp.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/CES/Sitecore.CES.GeoIp.LegacyLocation.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Channel/Sitecore.Analytics.Channel.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/ContentTesting/Sitecore.ContentTesting.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ContentTesting/Sitecore.ContentTesting.Intelligence.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ContentTesting/Sitecore.ContentTesting.Lucene.IndexConfiguration.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ContentTesting/Sitecore.ContentTesting.Mvc.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ContentTesting/Sitecore.ContentTesting.Processing.Aggregation.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ContentTesting/Sitecore.ContentTesting.Solr.IndexConfiguration.config.disabled">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/DataFolder.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/EventHandler.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceAnalytics/Sitecore.ExperienceAnalytics.Aggregation.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceAnalytics/Sitecore.ExperienceAnalytics.Client.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceAnalytics/Sitecore.ExperienceAnalytics.Reduce.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceAnalytics/Sitecore.ExperienceAnalytics.StorageProviders.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceAnalytics/Sitecore.ExperienceAnalytics.WebAPI.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceProfile/Sitecore.ExperienceProfile.Client.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceProfile/Sitecore.ExperienceProfile.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ExperienceProfile/Sitecore.ExperienceProfile.Reporting.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ForwardingSecurityEvents.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Bundle.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Lucene.DomainsSearch.DefaultIndexConfiguration.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Lucene.DomainsSearch.Index.Master.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Lucene.DomainsSearch.Index.Web.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Solr.DomainsSearch.DefaultIndexConfiguration.config.disabled">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Solr.DomainsSearch.Index.Master.config.disabled">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Solr.DomainsSearch.Index.Web.config.disabled">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/FXM/Sitecore.FXM.Speak.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ja-JP.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/ListManagement/Sitecore.ListManagement.Client.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ListManagement/Sitecore.ListManagement.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ListManagement/Sitecore.ListManagement.Lucene.Index.List.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ListManagement/Sitecore.ListManagement.Lucene.IndexConfiguration.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ListManagement/Sitecore.ListManagement.Services.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ListManagement/Sitecore.ListManagement.Solr.Index.List.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/ListManagement/Sitecore.ListManagement.Solr.IndexConfiguration.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/LiveMode.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Marketing/Sitecore.Marketing.Campaigns.Client.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Marketing/Sitecore.Marketing.Campaigns.Services.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/ScalabilitySettings.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Automation.TimeoutProcessing.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Compatibility.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.config">
+      <publishTime>09/03/2015 16:42:28</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.ExcludeRobots.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.MarketingTaxonomy.config">
+      <publishTime>08/03/2015 14:32:00</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.MarketingTaxonomyCD.config.disabled">
+      <publishTime>08/03/2015 14:32:00</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Model.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.MongoDb.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Oracle.config.disabled">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Outcome.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Processing.Aggregation.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Processing.Aggregation.ProcessingPools.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Processing.Aggregation.Services.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Processing.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Processing.Services.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Reporting.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Tracking.Aggregation.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Tracking.config">
+      <publishTime>09/10/2015 12:05:48</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Tracking.Database.config">
+      <publishTime>09/10/2015 12:05:48</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Tracking.Outcome.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Analytics.Tracking.RobotDetection.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.AntiCsrf.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Apps.TagInjection.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Buckets.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Buckets.WarmupQueries.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Analytics.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.DefaultConfigurations.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Analytics.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Core.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Master.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Web.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Core.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Master.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Web.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Solr.Index.Analytics.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Solr.Index.Core.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Solr.Index.Master.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Solr.Index.Web.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.VerboseLogging.config.example">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Diagnostics.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ExperienceEditor.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ExperienceEditor.Speak.Requests.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ExperienceExplorer.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ExperienceExplorer.Speak.Requests.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ItemWebApi.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.JSNLog.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.LanguageFallback.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Client.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.config">
+      <publishTime>08/27/2015 14:44:02</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.Index.Master.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.Index.Web.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.IndexConfiguration.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Solr.Index.Master.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Solr.Index.Web.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Solr.IndexConfiguration.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Definitions.MarketingAssets.RepositoriesCD.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Lucene.Index.Master.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Lucene.Index.Web.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Lucene.IndexConfiguration.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Search.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Solr.Index.Master.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Solr.Index.Web.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Marketing.Solr.IndexConfiguration.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MarketingCD.config.disabled">
+      <publishTime>08/27/2015 14:44:02</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MarketingProcessingRole.config.disabled">
+      <publishTime>08/27/2015 14:43:18</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MarketingReportingRole.config.disabled">
+      <publishTime>08/27/2015 14:43:18</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Media.RequestProtection.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Mvc.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MvcAnalytics.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MvcExperienceEditor.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MvcSimulator.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PathAnalyzer.Client.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PathAnalyzer.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PathAnalyzer.Processing.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PathAnalyzer.RemoteClient.config.disabled">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PathAnalyzer.Services.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PathAnalyzer.Services.RemoteServer.config.disabled">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PathAnalyzer.StorageProviders.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PipelineProfiling.config.disabled">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Processing.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.DedicatedInstance.config.example">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.EventProvider.Async.config.disabled">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.Optimizations.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.Parallel.config.disabled">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.Recovery.config.example">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.SegmentBuilder.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Services.Client.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Shell.MarketingAutomation.config">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.AntiCsrf.SheerUI.config">
+      <publishTime>10/03/2015 06:02:34</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.Applications.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.Components.config">
+      <publishTime>10/03/2015 06:02:34</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.config">
+      <publishTime>10/03/2015 06:02:34</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.ItemWebApi.config">
+      <publishTime>10/03/2015 06:02:34</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.LaunchPad.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.Mvc.config">
+      <publishTime>10/03/2015 06:02:34</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.WebDAV.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Xdb.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Xdb.Remote.Client.config.disabled">
+      <publishTime>08/26/2015 16:29:18</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Xdb.Remote.Client.MarketingAssets.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Xdb.Remote.Server.config.disabled">
+      <publishTime>08/26/2015 16:29:18</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Xdb.Remote.Server.MarketingAssets.config.disabled">
+      <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="App_Config/Include/SitecoreSettings.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
     <File Include="App_Config/Include/SiteDefinition.config">
       <publishTime>03/29/2016 18:02:02</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.ExperienceProfile.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Facebook.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.GooglePlus.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Klout.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.LinkedIn.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Lucene.Index.Master.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Lucene.Index.Web.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Lucene.IndexConfiguration.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.ProfileMapping.Facebook.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.ProfileMapping.GooglePlus.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.ProfileMapping.LinkedIn.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.ProfileMapping.Twitter.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.ScalabilitySettings.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.SocialMarketer.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Solr.Index.Master.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Solr.Index.Web.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Solr.IndexConfiguration.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Social/Sitecore.Social.Twitter.config">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/WebDeploy.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/XdbCloud/Sitecore.Cloud.Xdb.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/XdbCloud/Sitecore.ContentSearch.Cloud.DefaultIndexConfiguration.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/XdbCloud/Sitecore.ContentSearch.Cloud.Index.Analytics.config.disabled">
+      <publishTime>10/03/2015 06:02:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/XslExtension.config.example">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Z.SwitchMasterToWeb/important.txt">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Include/Z.SwitchMasterToWeb/SwitchMasterToWeb.config.example">
+      <publishTime>10/01/2015 18:46:18</publishTime>
+    </File>
+    <File Include="App_Config/LanguageDefinitions.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/MimeTypes.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Portraits.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Common.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Core.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Master.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Webdb.config">
+      <publishTime>08/03/2015 14:25:56</publishTime>
+    </File>
+    <File Include="App_Config/Prototypes.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/Security/Domains.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/Security/GlobalRoles.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore.config">
+      <publishTime>10/03/2015 06:02:40</publishTime>
+    </File>
+    <File Include="App_Config/XamlSharp.config">
+      <publishTime>08/03/2015 14:25:58</publishTime>
     </File>
     <File Include="Areas/DefaultSite/Controllers/NewController.cs">
       <publishTime>04/05/2016 09:17:09</publishTime>
@@ -33,11 +615,80 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Areas/DefaultSite/Views/_ViewStart.cshtml">
       <publishTime>04/04/2016 17:53:15</publishTime>
     </File>
+    <File Include="bin/Microsoft.Web.Administration.dll">
+      <publishTime>03/08/2014 18:28:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/29/2016 14:24:46</publishTime>
+    </File>
     <File Include="bin/Sc8MVC.dll">
-      <publishTime>04/05/2016 10:16:09</publishTime>
+      <publishTime>04/12/2016 10:07:53</publishTime>
+    </File>
+    <File Include="bin/Sc8MVC.pdb">
+      <publishTime>04/12/2016 10:07:53</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ExperienceExplorer.Business.dll">
+      <publishTime>10/03/2015 06:03:14</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ExperienceExplorer.Web.dll">
+      <publishTime>10/03/2015 06:03:16</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>10/03/2015 06:03:18</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>10/03/2015 06:03:24</publishTime>
+    </File>
+    <File Include="bin/SitecoreExperienced.Pipelines.GetPlaceholderRenderings.dll">
+      <publishTime>04/05/2016 10:05:47</publishTime>
+    </File>
+    <File Include="bin/SitecoreExperienced.SitecoreControls.dll">
+      <publishTime>04/05/2016 10:05:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/29/2016 14:24:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>03/29/2016 14:24:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/29/2016 14:24:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>03/29/2016 14:24:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>03/29/2016 14:24:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>03/29/2016 14:24:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/04/2016 17:53:16</publishTime>
     </File>
     <File Include="DuplicateItems.aspx">
       <publishTime>04/04/2016 16:41:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/29/2016 14:24:45</publishTime>
     </File>
     <File Include="layouts/QueryableRulesRunner.ascx">
       <publishTime>10/03/2015 06:02:32</publishTime>
@@ -105,11 +756,35 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="layouts/xmlcontrol.aspx">
       <publishTime>08/03/2015 14:25:56</publishTime>
     </File>
+    <File Include="packages.config">
+      <publishTime>04/04/2016 17:53:33</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/04/2016 17:53:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>04/04/2016 17:53:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/04/2016 17:53:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>04/04/2016 17:53:20</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>04/04/2016 17:53:33</publishTime>
+    </File>
     <File Include="Views/Shared/ExperienceExplorerView.cshtml">
-      <publishTime>03/29/2016 15:02:35</publishTime>
+      <publishTime>03/29/2016 15:07:08</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>10/03/2015 06:02:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/12/2016 14:02:03</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -1,8 +1,14 @@
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sc8MVC.dll.config
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sc8MVC.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sc8MVC.pdb
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Microsoft.Web.Administration.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sitecore.ExperienceExplorer.Business.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sitecore.ExperienceExplorer.Web.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sitecore.Kernel.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sitecore.Mvc.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\SitecoreExperienced.Pipelines.GetPlaceholderRenderings.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\SitecoreExperienced.SitecoreControls.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.Helpers.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.Mvc.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.Razor.dll
@@ -15,9 +21,6 @@ D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.Webpages.Deployment.xml
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.Webpages.Razor.xml
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.Helpers.xml
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.Mvc.xml
+D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.csprojResolveAssemblyReference.cache
 D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.pdb
-D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sitecore.ExperienceExplorer.Business.dll
-D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sitecore.ExperienceExplorer.Web.dll
-D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\SitecoreExperienced.Pipelines.GetPlaceholderRenderings.dll
-D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\SitecoreExperienced.SitecoreControls.dll
