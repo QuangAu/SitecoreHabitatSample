@@ -35,11 +35,7 @@ namespace Sc8MVC
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Sitecore.Security.Accounts.User.Current != null && Sitecore.Security.Accounts.User.Current.IsAdministrator)
-            {
-
-            }
-            else
+            if (Sitecore.Security.Accounts.User.Current == null || !Sitecore.Security.Accounts.User.Current.IsAdministrator)            
                 Response.Redirect("/");
             if (!IsPostBack && Request.Cookies["message"] != null && !string.IsNullOrEmpty(Request.Cookies["message"].Value))
             {
@@ -86,30 +82,40 @@ namespace Sc8MVC
                 Response.Redirect("http://sc8mvc/duplicateitems.aspx");
             }
 
-            #region Update item fields references
-            //source = homeItem;
-            //sourceRoot = homeItem;
-            //target = newHomeItem;
-            //targetRoot = newHomeItem;
-
-
-            //itemPair = GetItemPairs(homeItem, newHomeItem);
-
-            //foreach (Item item in itemPair.Select(p=>p.DestItem))
-            //{
-            //    IEnumerable<Field> fields = GetFieldsToProcess(item);
-            //    foreach (Field field in fields)
-            //    {
-            //        foreach (Item itemVersion in GetVersionsToProcess(item))
-            //        {
-            //            Field itemVersionField = itemVersion.Fields[field.ID];
-            //            ProcessField(itemVersionField);
-            //        }
-            //    }
-            //}
-            #endregion
+           
         }
 
+        public void TestThis()
+        {
+            Random rand = new Random();
+            if (rand.Next() == 1)
+            {
+                int[] a = { 1, 2, 3 };
+                foreach (int item in a)
+                {
+                    if (rand.Next() == item)
+                    {
+                        int[] b = { 4, 5, 6 };
+                        foreach (var item1 in b)
+                        {
+                            int c = item1;
+                        }
+                    }
+                    else
+                    {
+                        int c = item;
+                    }
+                }
+            }
+            else
+            {
+                int[] a = { 1, 2, 3 };
+                foreach (var item in a)
+                {
+                    int c = item;
+                }
+            }
+        }
 
         private bool UpdateIISSite()
         {
@@ -237,7 +243,9 @@ namespace Sc8MVC
         public Item target;
         public Item targetRoot;
 
+#pragma warning disable CS0649 // Field 'DuplicateItems.itemPair' is never assigned to, and will always have its default value null
         List<ItemPair> itemPair;
+#pragma warning restore CS0649 // Field 'DuplicateItems.itemPair' is never assigned to, and will always have its default value null
 
         private IEnumerable<Field> GetFieldsToProcess(Item item)
         {
@@ -255,10 +263,7 @@ namespace Sc8MVC
             List<ItemPair> itemPairLocal = new List<ItemPair>();
             // get homeItem descendants
             IEnumerable<Item> homeDescendants = Query.SelectItems("descendant-or-self::*", homeItem);
-
-            // get newhomeItem descendants
-            IEnumerable<Item> newhomeDescendants = Query.SelectItems("descendant-or-self::*", newHomeItem);
-
+            
             foreach (Item sourceDescendant in homeDescendants)
             {
                 if (!CanTranslatePath(sourceDescendant))
