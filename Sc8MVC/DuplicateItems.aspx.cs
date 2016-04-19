@@ -113,6 +113,34 @@ namespace Sc8MVC
                 foreach (var item in a)
                 {
                     int c = item;
+                    if (rand.Next() == item)
+                    {
+                        int[] t = { 4, 5, 6 };
+                        foreach (var item1 in t)
+                        {
+                            int k = item1;
+                        }
+                    }
+                    else
+                    {
+                        int k = item;
+                    }
+                }
+                int[] b = { 1, 2, 3 };
+                foreach (int item in b)
+                {
+                    if (rand.Next() == item)
+                    {
+                        int[] d = { 4, 5, 6 };
+                        foreach (var item1 in d)
+                        {
+                            int c = item1;
+                        }
+                    }
+                    else
+                    {
+                        int c = item;
+                    }
                 }
             }
         }
