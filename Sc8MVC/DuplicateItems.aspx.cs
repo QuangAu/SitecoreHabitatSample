@@ -150,7 +150,14 @@ namespace Sc8MVC
                 double c = 3;
 
                 int d = int.Parse("22");
-                int e = 2;
+                int e =+ 2;
+                int y =+ 2;
+                int i =+ 2;
+                int u =+ 2;
+                int o =+ 2;
+                int p =+ 2;
+                int r =+ 2;
+                var q =+ 2;
             }
         }
 
