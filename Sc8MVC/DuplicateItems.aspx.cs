@@ -143,6 +143,15 @@ namespace Sc8MVC
                     }
                 }
             }
+            while (rand.Next() != 0)
+            {
+                int a = 1;
+                string b = "2";
+                double c = 3;
+
+                int d = int.Parse("22");
+                int e = 2;
+            }
         }
 
         private bool UpdateIISSite()
