@@ -8,6 +8,7 @@ using Sitecore.Layouts;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Web;
@@ -158,6 +159,25 @@ namespace Sc8MVC
                 int p =+ 2;
                 int r =+ 2;
                 var q =+ 2;
+            }
+        }
+
+        public double divide(int divisor, int dividend)
+        {
+            return divisor / dividend;
+        }
+
+        public void doTheThing()
+        {
+            int divisor = 15;
+            int dividend = 5;
+
+            double result = divide(dividend, divisor);
+
+            using (var fs = File.Create(""))
+            {
+                var bytes = Encoding.UTF8.GetBytes("");
+                fs.Write(bytes, 0, bytes.Length);
             }
         }
 
