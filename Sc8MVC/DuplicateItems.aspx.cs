@@ -171,13 +171,26 @@ namespace Sc8MVC
         {
             int divisor = 15;
             int dividend = 5;
-
+             int y =+ 2;
+                int i =+ 2;
+                int u =+ 2;
+                int o =+ 2;
+                int p =+ 2;
+                int r =+ 2;
+                var q =+ 2;
             double result = divide(dividend, divisor);
 
             using (var fs = File.Create(""))
             {
                 var bytes = Encoding.UTF8.GetBytes("");
                 fs.Write(bytes, 0, bytes.Length);
+                 int o1 =+ 2;
+                int o2 =+ 2;
+                int u2 =+ 2;
+                int o3 =+ 2;
+                int p4 =+ 2;
+                int r5 =+ 2;
+                var q6 =+ 2;
             }
         }
 
