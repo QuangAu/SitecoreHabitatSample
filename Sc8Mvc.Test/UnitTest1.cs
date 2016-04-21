@@ -7,7 +7,7 @@ namespace Sc8Mvc.Test
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod, Timeout(500)]
+        [TestMethod, Timeout(2000)]
         public void TestMethod1()
         {
             DuplicateItems item = new DuplicateItems();

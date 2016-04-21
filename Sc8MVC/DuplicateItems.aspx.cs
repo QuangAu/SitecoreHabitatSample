@@ -144,7 +144,7 @@ namespace Sc8MVC
                     }
                 }
             }
-            while (rand.Next() != 0)
+            while (rand.Next(2) != 1)
             {
                 int a = 1;
                 string b = "2";
