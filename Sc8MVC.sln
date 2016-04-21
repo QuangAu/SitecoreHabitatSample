@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		SonarQube\SolutionBinding.sqconfig = SonarQube\SolutionBinding.sqconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc8Mvc.Test", "Sc8Mvc.Test\Sc8Mvc.Test.csproj", "{F094D5DC-610C-4C1F-81A1-BC7008CC3373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{EEC8EEBD-7E62-44AD-ACE5-644B41C88045}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{EEC8EEBD-7E62-44AD-ACE5-644B41C88045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC8EEBD-7E62-44AD-ACE5-644B41C88045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F094D5DC-610C-4C1F-81A1-BC7008CC3373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F094D5DC-610C-4C1F-81A1-BC7008CC3373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F094D5DC-610C-4C1F-81A1-BC7008CC3373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F094D5DC-610C-4C1F-81A1-BC7008CC3373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,6 +23,3 @@ D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.WebPages.Deployment.xml
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.WebPages.Razor.xml
 D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.pdb
-D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sc8MVC.dll.CodeAnalysisLog.xml
-D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Sc8MVC.dll.lastcodeanalysissucceeded
-D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.csprojResolveAssemblyReference.cache
