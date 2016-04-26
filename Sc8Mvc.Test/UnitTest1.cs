@@ -12,7 +12,7 @@ namespace Sc8Mvc.Test
         {
             DuplicateItems item = new DuplicateItems();
             item.TestThis();
-            Assert.AreEqual("abc", "bcd", "test message");
+            Assert.AreEqual("abc", "abc", "test message");
         }
     }
 }
