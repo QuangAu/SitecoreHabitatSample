@@ -14,5 +14,13 @@ namespace Sc8Mvc.Test
             item.TestThis();
             Assert.AreEqual("abc", "abc", "test message");
         }
+
+        [TestMethod, Timeout(500)]
+        public void TestDevide()
+        {
+            DuplicateItems item = new DuplicateItems();
+            double a = item.divide(5, 5);
+            Assert.AreEqual(1, a, "test devide message");
+        }
     }
 }
