@@ -88,78 +88,78 @@ namespace Sc8MVC
 
         public void TestThis()
         {
-            Random rand = new Random();
-            if (rand.Next() == 1)
-            {
-                int[] a = { 1, 2, 3 };
-                foreach (int item in a)
-                {
-                    if (rand.Next() == item)
-                    {
-                        int[] b = { 4, 5, 6 };
-                        foreach (var item1 in b)
-                        {
-                            int c = item1;
-                        }
-                    }
-                    else
-                    {
-                        int c = item;
-                    }
-                }
-            }
-            else
-            {
-                int[] a = { 1, 2, 3 };
-                foreach (var item in a)
-                {
-                    int c = item;
-                    if (rand.Next() == item)
-                    {
-                        int[] t = { 4, 5, 6 };
-                        foreach (var item1 in t)
-                        {
-                            int k = item1;
-                        }
-                    }
-                    else
-                    {
-                        int k = item;
-                    }
-                }
-                int[] b = { 1, 2, 3 };
-                foreach (int item in b)
-                {
-                    if (rand.Next() == item)
-                    {
-                        int[] d = { 4, 5, 6 };
-                        foreach (var item1 in d)
-                        {
-                            int c = item1;
-                        }
-                    }
-                    else
-                    {
-                        int c = item;
-                    }
-                }
-            }
-            while (rand.Next(2) != 1)
-            {
-                int a = 1;
-                string b = "2";
-                double c = 3;
+            //Random rand = new Random();
+            //if (rand.Next() == 1)
+            //{
+            //    int[] a = { 1, 2, 3 };
+            //    foreach (int item in a)
+            //    {
+            //        if (rand.Next() == item)
+            //        {
+            //            int[] b = { 4, 5, 6 };
+            //            foreach (var item1 in b)
+            //            {
+            //                int c = item1;
+            //            }
+            //        }
+            //        else
+            //        {
+            //            int c = item;
+            //        }
+            //    }
+            //}
+            //else
+            //{
+            //    int[] a = { 1, 2, 3 };
+            //    foreach (var item in a)
+            //    {
+            //        int c = item;
+            //        if (rand.Next() == item)
+            //        {
+            //            int[] t = { 4, 5, 6 };
+            //            foreach (var item1 in t)
+            //            {
+            //                int k = item1;
+            //            }
+            //        }
+            //        else
+            //        {
+            //            int k = item;
+            //        }
+            //    }
+            //    int[] b = { 1, 2, 3 };
+            //    foreach (int item in b)
+            //    {
+            //        if (rand.Next() == item)
+            //        {
+            //            int[] d = { 4, 5, 6 };
+            //            foreach (var item1 in d)
+            //            {
+            //                int c = item1;
+            //            }
+            //        }
+            //        else
+            //        {
+            //            int c = item;
+            //        }
+            //    }
+            //}
+            //while (rand.Next(2) != 1)
+            //{
+            //    int a = 1;
+            //    string b = "2";
+            //    double c = 3;
 
-                int d = int.Parse("22");
-                int e =+ 2;
-                int y =+ 2;
-                int i =+ 2;
-                int u =+ 2;
-                int o =+ 2;
-                int p =+ 2;
-                int r =+ 2;
-                var q =+ 2;
-            }
+            //    int d = int.Parse("22");
+            //    int e =+ 2;
+            //    int y =+ 2;
+            //    int i =+ 2;
+            //    int u =+ 2;
+            //    int o =+ 2;
+            //    int p =+ 2;
+            //    int r =+ 2;
+            //    var q =+ 2;
+            //}
         }
 
         public double divide(int divisor, int dividend)
