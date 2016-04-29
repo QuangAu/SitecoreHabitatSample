@@ -23,3 +23,10 @@ D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.WebPages.Deployment.xml
 D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\System.Web.WebPages.Razor.xml
 D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.dll
 D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.pdb
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Kamsar.WebConsole.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\MicroCHAP.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Rainbow.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Rainbow.Storage.Sc.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Rainbow.Storage.Yaml.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\bin\Unicorn.dll
+D:\Project\Test projects\Sc8MVC\Sc8MVC\obj\Debug\Sc8MVC.csprojResolveAssemblyReference.cache
